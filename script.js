@@ -1,9 +1,6 @@
-let arr = [1,2,3,4,5];
+// sum of two integer
 
-// find the sum of all the elements in the array
-let sum = 0;
-
-for (let i=0; i<arr.length; i++) {
-    sum = sum + arr[i];
-}
-console.log(sum);
+let a =12;
+let b ="13";
+sum = a+b;
+console.log("type of sum is:",typeof sum, "and value is",sum); 
