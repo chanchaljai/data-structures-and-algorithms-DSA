@@ -2,7 +2,8 @@ let arr = [1,2,3,4,5];
 
 // find the sum of all the elements in the array
 let sum = 0;
-for (let i = 0; i < arr.length; i++) {
-    sum += arr[i];
+
+for (let i=0; i<arr.length; i++) {
+    sum = sum + arr[i];
 }
 console.log(sum);
