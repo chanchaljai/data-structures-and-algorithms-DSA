@@ -1,6 +1,6 @@
-let age = prompt("Enter your age");
-if (age > 18) {
-    console.log("You can drive");
-} else {
-    console.log("You cannot drive");
-}
+let a = 10;
+let b = 20;
+ let c = a; 
+
+ // number is not remove just copy
+ console.log(a);
