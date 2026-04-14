@@ -1,1 +1,6 @@
-console.log("1"+1, typeof("1"+1));
+let age = prompt("Enter your age");
+if (age > 18) {
+    console.log("You can drive");
+} else {
+    console.log("You cannot drive");
+}
