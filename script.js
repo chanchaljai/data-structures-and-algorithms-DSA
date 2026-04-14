@@ -1,6 +1,3 @@
-// sum of two integer
-
-let a =12;
-let b ="13";
-sum = a+b;
-console.log("type of sum is:",typeof sum, "and value is",sum); 
+let a =10;
+let b = 20;
+console.log("sum of a and b is " + (a+b));
