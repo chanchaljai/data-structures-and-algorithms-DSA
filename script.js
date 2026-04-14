@@ -1,7 +1,8 @@
 let a = 10;
 let b = 20;
- let c = a; 
 
-a=b;
-b=c;
+a = a + b;
+b = a - b;
+a = a - b;
 console.log(a,b);
+
