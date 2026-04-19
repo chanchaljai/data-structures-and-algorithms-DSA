@@ -1,6 +1,6 @@
+// && ||   multiple conditions checking
+    console.log(10>6 && 4<9);    //true
 
-// = ==  ===
+    console.log(10<6 && 4<9 && 15>8);    // false
 
-a = 5;   // Assignment operator
-a == 5;   // Equality operator
-a === 5;  // Strict Equality operator
+    console.log(10>6 || 4<9 || 15>8);    // true
