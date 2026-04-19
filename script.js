@@ -1,3 +1,2 @@
-let i = 11;
-i = i ++ + ++i;  //   i = 11 + 1 + 12 = 24
-console.log(i);
+console.log(Math.round(3.6)); // 4
+console.log(Math.round(3.4)); // 3
