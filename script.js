@@ -1,6 +1,3 @@
-// && ||   multiple conditions checking
-    console.log(10>6 && 4<9);    //true
-
-    console.log(10<6 && 4<9 && 15>8);    // false
-
-    console.log(10>6 || 4<9 || 15>8);    // true
+let i = 11;
+i = i ++ + ++i;  //   i = 11 + 1 + 12 = 24
+console.log(i);
