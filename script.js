@@ -1,3 +1,5 @@
-let r = 12;
-console.log(Number((2*Math.PI*r).toFixed(2))); // 75.40
-
+if (12>13){
+    console.log("12 is greater than 13");
+}else{
+    console.log("12 is less than 13");
+}
