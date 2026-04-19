@@ -1,7 +1,6 @@
-// > < >= <= !=
 
-console.log(10>5);  //true
-console.log(10<5);  //false
-console.log(10>=5); //true
-console.log(10<=5); //false
-console.log(10!=5); //true
+// = ==  ===
+
+a = 5;   // Assignment operator
+a == 5;   // Equality operator
+a === 5;  // Strict Equality operator
