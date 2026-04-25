@@ -1,28 +1,19 @@
-// Shopping Discount
-let amount = Number(prompt("Enter the amount"));
-if (amount > 0 && amount < 5000) {
-  // No Discount
-  console.log(amount);
-} else if (amount > 5000 && amount <= 7000) {
-  // 5% Discount
-  discount = Number(Math.floor((5 * amount) / 100));
-  console.log("Amount: " + amount);
-  console.log("Discount: " + discount);
+// Electricity bill calculation
+//up to 100 4.2 per unit  101-200 6 per unit 201-400 8 per unit and above 13 per unit
 
-  bill = amount - discount;
-  console.log("Final Bill: " + bill);
-} else if (amount > 7000 && amount <= 9000) {
-  // 10% Discount
-  discount = Number(Math.floor((10 * amount) / 100));
-  console.log("Amount: " + amount);
-  console.log("Discount: " + discount);
-  bill = amount - discount;
-  console.log("Final Bill: " + bill);
-} else {
-  // 20% Discount
-  discount = Number(Math.floor((20 * amount) / 100));
-  console.log("Amount: " + amount);
-  console.log("Discount: " + discount);
-  bill = amount - discount;
-  console.log("Final Bill: " + bill);
+let unit = prompt("Enter the unit");
+let bill = 0;
+if (unit <= 100) {
+    bill = unit * 4.2;
 }
+else if (unit <= 200) {
+    bill = (100 * 4.2) + ((unit - 100) * 6);
+}
+else if (unit <= 400) {
+    bill = (100 * 4.2) + (100 * 6) + ((unit - 200) * 8);
+}
+else {
+    bill = (100 * 4.2) + (100 * 6) + (200 * 8) + ((unit - 400) * 13);
+}
+alert("Your bill is " + bill);
+
