@@ -1,9 +1,12 @@
-// switch case 
-let day = 2;
-switch(day){
-    case 1: console.log("Monday");
-    break;
-    case 2: console.log("Tuesday");
-    break;
-    default: console.log("Invalid day");
+let num = 0.2 + 0.3;
+switch (num) {
+    case 0.4:
+        console.log("hello");
+        break;
+            case 0.5:
+        console.log("hi");
+        break;
+
+    default:
+        console.log("false");
 }
