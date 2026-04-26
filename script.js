@@ -1,12 +1,13 @@
-let num = 0.2 + 0.3;
-switch (num) {
-    case 0.4:
-        console.log("hello");
-        break;
-            case 0.5:
-        console.log("hi");
-        break;
+// 5 bar hello print karana hai 
+// console.log("hello");
+// console.log("hello");
+// console.log("hello");
+// console.log("hello");
+// console.log("hello");  
 
-    default:
-        console.log("false");
+//ye tarika thik hai but 50 bar ke liye sahi hai kya... nhi 
+// 5 bar ke liye hi 
+
+for (i=0; i<5; i++){
+    console.log("hello");
 }
