@@ -1,4 +1,4 @@
-// 1-22
-for (i=23; i<=54; i++) {     //i<23 to 22 tk loop chalega
+// 200-100
+for(i=200; i>99; i--){  // i>=100
     console.log(i);
 }
