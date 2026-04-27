@@ -1,12 +1,12 @@
-// sum of n natural numbers
-let ans = Number(prompt("Enter a number")); // jaha tk add karana hai
+// use chatgpt to optimize the code
+const n = +prompt("Enter a number");
 
-if (isNaN(ans)) {
-  console.log("Enter a valid number");
-} else {
-  let sum = 0;
-  for (let i = 1; i <= ans; i++) {
-    sum += i;
-  }
-  console.log(sum);
+if (!Number.isInteger(n) || n < 0) {
+  console.log("Enter a valid non-negative integer");
+  return;
 }
+
+let fact = 1;
+for (let i = 2; i <= n; i++) fact *= i;
+
+console.log(fact);
