@@ -1,12 +1,12 @@
-// use chatgpt to optimize the code
-const n = +prompt("Enter a number");
+// factors of a number.
 
-if (!Number.isInteger(n) || n < 0) {
-  console.log("Enter a valid non-negative integer");
-  return;
+let n = +prompt("Enter a number");
+if (n < 0 || isNaN(n)) {
+  alert("Enter a valid number");
+} else {
+  for (let i = 1; i <= n; i++) {
+    if (n % i == 0) {
+      console.log(i);
+    }
+  }
 }
-
-let fact = 1;
-for (let i = 2; i <= n; i++) fact *= i;
-
-console.log(fact);
