@@ -1,13 +1,14 @@
-// factors of a number.
-
-let n = +prompt("Enter a number");
-if (n < 0 || isNaN(n)) {
-  alert("Enter a valid number");
-} else {
-  for (let i = 1; i <= Math.floor(n / 2); i++) {
-    if (n % i == 0) {
-      console.log(i);
+// find prime number
+// 1 se 100 ke bich me prime number print karenge
+for (let i = 1; i <= 100; i++){
+  let prime = true;
+  for (let j = 2; j < i; j++){
+    if (i % j == 0){
+      prime = false;
+      break;
     }
   }
-  console.log(n);
+  if (prime){
+    console.log(i);
+  }
 }
