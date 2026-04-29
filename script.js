@@ -1,7 +1,7 @@
-// 1 to 23
+// while loop  jb tk condition n aaye tb tk chalega
 
-let i = 1;
-while (i <= 23) {
-  console.log(i);
-  i++;
+let ans = prompt("kuchh bhi likho");
+while(ans != "stop"){
+  console.log(ans);
+  ans = prompt("kuchh bhi likho");
 }
