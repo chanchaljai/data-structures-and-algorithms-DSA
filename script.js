@@ -1,11 +1,7 @@
-// while loop 
+// 1 to 23
 
-for(start; end; change){ 
-  // code
-}
-
-start;
-while(end){
-  // code
-  change;
+let i = 1;
+while (i <= 23) {
+  console.log(i);
+  i++;
 }
