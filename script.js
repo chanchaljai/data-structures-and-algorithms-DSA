@@ -1,7 +1,10 @@
-// while loop  jb tk condition n aaye tb tk chalega
-
-let ans = prompt("kuchh bhi likho");
-while(ans != "stop"){
-  console.log(ans);
-  ans = prompt("kuchh bhi likho");
+// sum of all digits in any number
+let n = +prompt("Enter any number");
+let sum = 0;
+while (n>0) {
+  let rem = n%10;
+  sum = sum + rem;
+  n = n/10;
+  n = Math.floor(n);
 }
+console.log(sum);
