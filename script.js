@@ -1,12 +1,7 @@
-// 1234 ko 4321 me change karna hai 
-// kisi bhi number ko reverse karna ho 
-
-let num = +prompt("Enter the number");
-
-let rev =0;
-while (num > 0) {
-  let rem = num % 10;
-  rev = rev*10 + rem;
-  num = Math.floor(num/10)
+// strong number
+// 145  me 1! + 4! + 5! = 145 strong number kisi number ke  sabhi digit ka factorial nikal ke  add krenge number ke equal hoga to strong number hoga.
+let n = +prompt("Enter a number");
+if  (isNaN(n)) {
+  alert("Enter a valid number");
+  console.log("Enter a valid number,","NaN is not a number");
 }
-console.log(rev);
